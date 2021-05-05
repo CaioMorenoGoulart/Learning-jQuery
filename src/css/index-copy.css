@@ -54,3 +54,9 @@
       .container li .flexinput input {
         width: 200px;
         margin-bottom: 10px; }
+  .container .liflex {
+    display: flex; }
+    .container .liflex #recebeValor {
+      margin-left: 20px; }
+      .container .liflex #recebeValor p {
+        margin: 0; }

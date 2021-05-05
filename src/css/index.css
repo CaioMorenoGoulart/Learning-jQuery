@@ -42,3 +42,5 @@
     height: 390px;
     margin: 10px 10px;
     background-color: #575757; }
+  .container .liflex {
+    display: flex; }
