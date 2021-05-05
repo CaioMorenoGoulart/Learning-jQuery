@@ -27,12 +27,19 @@
                 background-color: #e2e2e2;
             }
         }
-        .boxOffBoxes {
+
+
+        .boxOffBoxes, .boxOffBoxes2 {
             margin: 10px;
             display: flex;
             justify-content: center;
             align-items: center;
         
+            p {
+                color: white;
+                font-size: 40px;
+            }
+
             .box1 {
                 display: flex;
                 justify-content: center;
@@ -51,12 +58,22 @@
                 .box2, .box3 {
                     display: flex;
                     align-items: center;
-            
+                    justify-content: center;
+
                     width: 800px;
                     height: 390px;
                     margin: 10px 10px;
                     background-color:#575757;
                 }
+            }
+        }
+        .flexinput {
+            display: flex;
+            flex-direction: column;
+
+            input {
+                width: 200px;
+                margin-bottom: 10px;
             }
         }
     }
