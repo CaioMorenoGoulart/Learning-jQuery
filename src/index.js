@@ -1,6 +1,7 @@
-$( "body" ).click(function() {
+$( "button" ).click(function() {
   console.log("Amigo estou aqui")
 });
-$( ".bloco1 h1" ).click(function() {
-  $(".bloco1 h1").text("Meu texto")
+$( ".mudaTexto p" ).click(function() {
+  $(".mudaTexto p").text("Meu texto")
 });
+//

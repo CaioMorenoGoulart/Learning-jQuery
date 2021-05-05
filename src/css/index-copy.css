@@ -1,0 +1,46 @@
+.container {
+  width: 100%;
+  max-width: 1390px;
+  margin: 0 auto; }
+  .container h1 {
+    text-align: center;
+    margin-bottom: 60px; }
+  .container li {
+    list-style: none;
+    margin: 30px 0; }
+    .container li p {
+      font-size: 20px;
+      margin-top: 30px; }
+    .container li button {
+      width: 200px;
+      height: 40px;
+      border-radius: 20px;
+      background-color: #797979;
+      transition: 0.2s;
+      cursor: pointer; }
+      .container li button:hover {
+        background-color: #e2e2e2; }
+    .container li .boxOffBoxes {
+      margin: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      .container li .boxOffBoxes .box1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #464646;
+        margin: 10px;
+        width: 800px;
+        height: 800px; }
+      .container li .boxOffBoxes .rightBoxes {
+        display: flex;
+        flex-direction: column;
+        justify-content: center; }
+        .container li .boxOffBoxes .rightBoxes .box2, .container li .boxOffBoxes .rightBoxes .box3 {
+          display: flex;
+          align-items: center;
+          width: 800px;
+          height: 390px;
+          margin: 10px 10px;
+          background-color: #575757; }
